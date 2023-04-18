@@ -1,0 +1,43 @@
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .resume-download {
+    margin-bottom: 30px;
+  }
+  
+  .resume-download a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .resume-download a:hover {
+    background-color: #0069d9;
+  }
+  
+  .resume-skills {
+    text-align: center;
+  }
+  
+  .resume-skills h2 {
+    margin-bottom: 10px;
+  }
+  
+  .resume-skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .resume-skills li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  

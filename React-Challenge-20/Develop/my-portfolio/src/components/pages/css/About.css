@@ -1,0 +1,27 @@
+.about-container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  align-items: center;
+}
+
+.about-container h1 {
+  grid-column: 1 / span 2;
+  text-align: center;
+}
+
+.selfie-img {
+  width: 100%;
+  transform: scale(0.50);
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .selfie-img {
+    width: 50%;
+    margin: auto;
+  }
+}
+

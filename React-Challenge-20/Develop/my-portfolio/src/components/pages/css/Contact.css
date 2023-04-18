@@ -1,0 +1,48 @@
+/* Add some padding to the top and bottom of the page */
+body {
+    padding: 20px 0;
+  }
+  
+  /* Center the content on the page */
+  div {
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  /* Add some spacing between the heading and the paragraph */
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add some spacing between form fields */
+  label,
+  input,
+  textarea {
+    margin-bottom: 10px;
+  }
+  
+  input,
+  textarea {
+    flex: 1;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  

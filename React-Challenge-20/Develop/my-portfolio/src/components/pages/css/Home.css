@@ -1,0 +1,22 @@
+.applications {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .applications > div {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .applications > div > h3 {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  
+  .applications > div > a {
+    display: block;
+    margin-top: 10px;
+  }
+  
